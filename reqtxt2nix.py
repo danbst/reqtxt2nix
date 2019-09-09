@@ -6,8 +6,8 @@ import json
 import argparse
 import subprocess
 
-from pip.index import PackageFinder
-from pip.req import parse_requirements, InstallRequirement
+from pip_shims.index import PackageFinder
+from pip_shims.req import parse_requirements, InstallRequirement
 
 
 def main():
