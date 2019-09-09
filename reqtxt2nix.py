@@ -35,7 +35,6 @@ def main():
     finder = PackageFinder(
         find_links=options.find_links,
         index_urls=options.index_urls,
-        use_wheel=False,
         )
     for r in options.requirements:
         all_req.append(InstallRequirement.from_line(r))
